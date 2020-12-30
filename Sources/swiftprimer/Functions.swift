@@ -48,7 +48,7 @@ func testCalling() {
     action(sum, x: 100, y: 11)
     action(def, x: 5, y: 2)
     var n = 100
-    //the & indicates a reference to argument is passed
+    //the & indicates this reference to argument is passed
     passByRef(&n)
 
 }
